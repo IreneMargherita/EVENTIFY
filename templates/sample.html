@@ -1,0 +1,8 @@
+{% if alleci %}
+<ul>
+    {% for i in alleci %}
+    
+     <li> <a href="{% url 'ECI:detail' i.eci_id %}">{{i.name}}</a></li>
+    {% endfor %}
+</ul>
+{%endif%}

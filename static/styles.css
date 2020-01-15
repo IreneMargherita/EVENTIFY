@@ -1,0 +1,10 @@
+
+  .masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('EVENTIFYLOGO.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
